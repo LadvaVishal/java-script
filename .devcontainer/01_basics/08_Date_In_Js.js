@@ -1,11 +1,11 @@
 let myDate=new Date();
 // Zero time is January 01, 1970 00:00:00 UTC.
 
-// console.log(myDate) // ans 2025-01-06T06:50:14.528Z
-// console.log(myDate.toString()); //Mon Jan 06 2025 06:50:14 GMT+0000 (Coordinated Universal Time)
-// console.log(myDate.toDateString()) // Mon Jan 06 2025
-// console.log(myDate.toLocaleString()) //1/6/2025, 6:51:41 AM
-// console.log(typeof myDate) //object
+console.log(myDate) // ans 2025-01-06T06:50:14.528Z
+console.log(myDate.toString()); //Mon Jan 06 2025 06:50:14 GMT+0000 (Coordinated Universal Time)
+console.log(myDate.toDateString()) // Mon Jan 06 2025
+console.log(myDate.toLocaleString()) //1/6/2025, 6:51:41 AM
+console.log(typeof myDate) //object
 
 
 
@@ -26,12 +26,13 @@ let myTimeStamp=Date.now(); // give time in  milisecond
 
 // console.log(Math.floor(Date.now() / 1000)); // return time in second
 
-let newDate= new Date();
-console.log(newDate);
-console.log(newDate.getMonth()+1);
-console.log(newDate.getDay());
 
-console.log(newDate.toLocaleString('default', {
-    weekday: "long",
-    month:"long"
-}))
+// let newDate= new Date();
+// console.log(newDate);
+// console.log(newDate.getMonth()+1);
+// console.log(newDate.getDay());
+
+// console.log(newDate.toLocaleString('default', {
+//     weekday: "long",
+//     month:"long"
+// }))
